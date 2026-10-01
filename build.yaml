@@ -1,2 +1,3 @@
 include:
-  - board: keychron_k3_se2
+  - board: keychron
+    shield: keychron_k3_se2_ansi
