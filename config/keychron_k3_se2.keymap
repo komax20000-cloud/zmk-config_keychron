@@ -1,14 +1,15 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     chosen {
         zmk,matrix-transform = &default_transform;
     };
 
-    // 키크론 런처에서 할 수 없었던 ZMK의 꽃, 탭댄스 설정 공간입니다!
     behaviors {
-        // 예시 td0: 한 번 누르면 세미콜론(;), 두 번 누르면 콜론(:)이 입력됨
+        // 키크론 런처에서 불가능했던 ZMK 고유 기능 (예시: 탭댄스 td0)
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
